@@ -9,7 +9,7 @@
 
 `sudo apt-get update -yqq`
 
-`curl -H 'Cache-Control: no-cache' -sSL https://raw.githubusercontent.com/tretos53/ssrpr/main/ssrpr.sh | sudo bash $0 YT_PLAYLIST`
+`curl -H 'Cache-Control: no-cache' -sSL https://raw.githubusercontent.com/tretos53/ssrpr/main/ssrpr.sh | bash $0 YT_PLAYLIST`
 
 ## Known Issues
 1. This script uses .bashrc to start the Tizonia. There is a known issue starting Tizonia at boot.
