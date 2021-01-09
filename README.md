@@ -7,6 +7,8 @@
 3. Set sudo raspi-config to autologin to console.
 4. Install by running below commands. Replace YT_PLAYLIST with your YouTube playlist URL.
 
+`sudo apt-get update -yqq`
+
 `curl -H 'Cache-Control: no-cache' -sSL https://raw.githubusercontent.com/tretos53/ssrpr/main/ssrpr.sh | sudo bash $0 YT_PLAYLIST`
 
 ## Known Issues
