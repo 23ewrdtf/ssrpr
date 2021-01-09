@@ -1,1 +1,1 @@
-# SSRPI - Super Simple Raspberry Pi Radio
+# SSRPR - SSRPRADIO - Super Simple Raspberry Pi Radio
