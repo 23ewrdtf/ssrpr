@@ -1,20 +1,10 @@
 #!/bin/bash
 
-if [ "$EUID" -ne 0 ]
-	then echo "Must be root, run sudo -i before running this script."
-	exit
-fi
-
 echo "┌─────────────────────────────────────────"
 echo "|This script will install SSRPRADIO."
 echo "|After reboot it should play your YT playlist automatically."
 echo "└─────────────────────────────────────────"
 read -p "Press enter to continue"
-
-echo "┌─────────────────────────────────────────"
-echo "|Updating repositories"
-echo "└─────────────────────────────────────────"
-apt-get update -yqq
 
 echo "┌─────────────────────────────────────────"
 echo "|Installing pulseaudio"
