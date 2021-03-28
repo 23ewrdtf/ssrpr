@@ -12,3 +12,4 @@
 
 ## Known Issues
 1. This script uses .bashrc to start the Tizonia. There is a known issue starting Tizonia at boot.
+2. To avoid getting Youtube quota error follow https://tizonia.org/news/2020/03/08/release-0-21-0/
