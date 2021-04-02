@@ -13,3 +13,4 @@
 ## Known Issues
 1. This script uses .bashrc to start the Tizonia. There is a known issue starting Tizonia at boot.
 2. To avoid getting Youtube quota error follow https://tizonia.org/news/2020/03/08/release-0-21-0/
+3. There is something wrong with --shuffle option in Tizonia. It often shuffle the same few songs, even of the playlist contains 50 songs.
