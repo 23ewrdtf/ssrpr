@@ -14,6 +14,7 @@ function check_google
 
 until [ `check_google` -eq 1 ]; do
   echo "Waiting for network..."
+  espeak "Waiting for the Internet. No reply from Google DNS." -s 150
   sleep 2
 done
 
