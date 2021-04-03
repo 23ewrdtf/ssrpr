@@ -36,5 +36,10 @@ sudo sed -i -- "s/defaults.ctl.card 0/defaults.ctl.card 1/g" /usr/share/alsa/als
 sudo sed -i -- "s/defaults.pcm.card 0/defaults.pcm.card 1/g" /usr/share/alsa/alsa.conf
 
 echo "┌─────────────────────────────────────────"
+echo "|Installing espeak"
+echo "└─────────────────────────────────────────"
+sudo apt-get install espeak -yq
+
+echo "┌─────────────────────────────────────────"
 echo "|Please reboot your pi and test."
 echo "└─────────────────────────────────────────"
